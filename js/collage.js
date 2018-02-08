@@ -6,8 +6,11 @@ document.addEventListener('dragover',allowDrop);
 
 
 //ondragover :funcion 1 previniendo el comportamiento de arrastar un elemento que  no es una  caracteristica comun
-function allowDrop(ev){ 
+function allowDrop(ev) { 
     ev.preventDefault();
+    ev.dataTransfer.dropEffect = 'copy';
+    return false;
+
     
 }
 
@@ -21,7 +24,7 @@ function drag(ev){
 
 function drop(ev){
     ev.preventDefault();
-    //ev.dataTransfer.dropEffect = 'copy';
+    
 
     var data = ev.dataTransfer.getData('text');
     
