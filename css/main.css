@@ -1,0 +1,40 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #fff;
+}
+
+/* collage html*/
+
+.logo {
+	width: 200px;
+}
+
+.imgCollage {
+	margin: 1em;
+	padding: 1em;
+}
+
+.containerImageGral {
+	height: 580px;
+	
+}
+
+.title {
+	color: #000000a4;
+	letter-spacing: 0.9px;
+	font-size: 16px;
+}
+
+.indication {
+	margin-top: 40%;
+}
+
+.ContImgGral {
+	border: 1px solid salmon;
+	height: 290px;
+}
+
+#div1 img {
+	margin-bottom: 2em;
+	padding: 1em;
+}
