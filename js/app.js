@@ -36,14 +36,21 @@ $(document).ready(function () {
         if ($(this).val().length >= 6) {
             validatePassword = true;
             activeButton();
-
+            
         } else {
             desactiveButton();
         }
+
+        $('#signup').click( function (ev) {
+            ev.preventDefault();
+            $(location).attr('href', 'views/collage.html');
+        });
     });
 
-    $('#signup').click( function () {
-        
-        $(location).attr('href', '../views/collage.html');
-    });
+//evento que redirecciona  a la vista  del collage
+
+    
+    
+
+    
 });
