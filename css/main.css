@@ -16,7 +16,7 @@ body {
 
 .containerImageGral {
 	height: 580px;
-	
+
 }
 
 .title {
@@ -37,4 +37,40 @@ body {
 #div1 img {
 	margin-bottom: 2em;
 	padding: 1em;
+}
+
+/* index html*/
+
+.container-flex-row {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.container-flex-column {
+  display: flex;
+	flex-direction:column;
+  justify-content: center;
+	padding: 2em;
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+.contBody {
+  background: linear-gradient( #16a7b1 25%, rgb(37, 31, 31));
+}
+
+input {
+	width: 100%;
+}
+
+.test5 {
+	margin-left: 40%;
+}
+
+.positionLabel {
+	width: 20%;
+	margin-left: 35%;
 }
